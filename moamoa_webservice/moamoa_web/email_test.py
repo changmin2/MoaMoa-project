@@ -10,7 +10,7 @@ from control.crawling import crawling
 def sendMail(me, you,news,href,n,h,product,today_price,today_trade,tomorrow_price,tomorrow_trade,toto_price,toto_trade,next_price,next_trade,temp,last,temp_max,temp_min,chegam,location) :
 	
     smtp = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-    smtp.login(me, 'oofsoocompwwembj')
+    smtp.login(me, '*******')
 
 			
     html="""
@@ -301,6 +301,6 @@ for j in product_list:
 for i in range(2):
     temp,last,temp_min,temp_max,chegam,mise = weather(location_list[i])
     pre=User.predict(predict_list[i])
-    sendMail('dlckdals9467@gmail.com', email_list[i],news,href,n,h,pre[0][0],pre[0][1],pre[0][2],pre[0][3],pre[0][4],pre[0][5],pre[0][6],pre[0][7],pre[0][8],temp,last,temp_max,temp_min,chegam,location_list[i])
+    sendMail('********', email_list[i],news,href,n,h,pre[0][0],pre[0][1],pre[0][2],pre[0][3],pre[0][4],pre[0][5],pre[0][6],pre[0][7],pre[0][8],temp,last,temp_max,temp_min,chegam,location_list[i])
 
 
