@@ -56,8 +56,8 @@ HTML, CSS, Bootstrap, Flask, Mysql, python, ngrok(서버)
 
 ![email](prototype_image/email.jpg)
 
-### 웹서비스
-
+### 웹서비스 
+- 주소 : http://ec2-15-165-154-183.ap-northeast-2.compute.amazonaws.com:5000/
 - 날씨정보
 - 정책정보
 - 뉴스정보
